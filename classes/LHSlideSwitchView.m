@@ -96,7 +96,7 @@
     [self didShowIndex:nn];
 }
 
--(void)didShowIndex:(int)tag
+-(void)didShowIndex:(NSInteger)tag
 {
     if (!_NotShowSlideAnimate) {
         [_rootScrollView setContentOffset:CGPointMake(self.bounds.size.width*tag,0) animated:YES];

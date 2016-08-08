@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "LHPodTest"
   s.version      = "1.0.0"
-  s.summary      = "A short description of LHPodTest."
+  s.summary      = "弹出Picker选择框的自定义."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
